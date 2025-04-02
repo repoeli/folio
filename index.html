@@ -1,48 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elias Z | Software Developer</title>
-    
-    <!-- Bootstrap CSS Library -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon-2.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32-2.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16-2.png">
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elias Z | Software Developer</title>
+
+  <!-- Bootstrap CSS Library -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon-2.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32-2.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16-2.png">
+</head>
+
 <body>
 
-    <nav class="navbar navbar-expand-sm bg-body-tertiary">
-        <div class="container">
-          <a class="navbar-brand" href="#">Elias Z</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
+  <nav class="navbar navbar-expand-sm bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Elias Z</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
-              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- header -->
+  <header id="hero" class="container">
+    <!-- section with hero image -->
+    <section class="row">
+      <!-- text-center class used to centre all text inside column -->
+      <div class="col-12 text-center">
+        <h1 class="display-4 my-4">Elias Z</h1>
+        <!-- mb-5 gives extra margin spacing under subheading -->
+        <h2 class="display-6 mb-5">Software Developer</h2>
+        <p>
+          Hello! I'm Elias, a
+          <strong> passionate and adaptable Software Developer</strong>
+          specializing in <strong>full-stack development</strong>and <strong>data analytics</strong>
+          . Currently honing my skills in <strong>HTML, CSS, JavaScript, Python, SQL, and Django </strong>
+          through an intensive <strong>Full Stack Bootcamp</strong>, I thrive on turning ideas into functional, clean,
+          and efficient digital solutions.
+
+          With a strong foundation in both <strong>frontend and backend technologies,</strong> I aim to build
+          <strong>user-friendly, scalable applications </strong>
+          while continuously expanding my expertise. <strong>Open to collaboration </strong>on entry-level projects, I'm
+          eager to contribute, learn, and grow alongside fellow developers.
+
+          <i>Fun fact: While AI might be the future of coding, I’m here to code the future—until GitHub bots start
+            pushing their own commits! 🚀</i>
+        </p>
+        <!-- mb-5 gives extra margin spacing under lead text -->
+        <p class="lead mb-5">Let's create something amazing together!</p>
+      </div>
+    </section>
+  </header>
+
+  <!-- main content -->
+  <main>
+    <!-- About section links to #about href in navbar -->
+    <section id="about" class="container">
+      <div class="row">
+        <!-- my-4 used to add top and bottom margin to heading -->
+        <div class="col-12 text-center my-4">
+          <h2 class="display-5">About Elias</h2>
+        </div>
+        <!-- mb-4 used to add margin under image -->
+        <div class="col-12 col-md-6 mb-4">
+          <!-- img-fluid class makes the image responsive to its container -->
+          <img src="assets/images/mei-wong.webp" class="img-fluid" alt="Elias Z">
+        </div>
+        <!-- mb-4 used to add margin under text -->
+        <div class="col-12 col-md-6 mb-4">
+          <p>
+            As a dedicated software developer, I specialise in crafting
+            seamless, dynamic user interfaces that prioritize user engagement
+            and functionality. With a keen interest in web aesthetics and
+            usability, I've developed a robust skill set in HTML, CSS,
+            JavaScript, and Bootstrap, ensuring responsive and visually
+            appealing designs.
+          </p>
+          <p>
+            My approach combines meticulous attention to detail with a
+            relentless pursuit of user-centric solutions, making me a reliable
+            contributor to any web development team.
+          </p>
+          <p>
+            I am on the lookout for opportunities to leverage my skills in a
+            dynamic environment, aiming to contribute to meaningful projects
+            and grow as part of a forward-thinking team.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section starts here -->
+    <section id="portfolio" class="container">
+      <div class="row">
+        <!-- my-4 used to add top and bottom margin to heading -->
+        <div class="col-12 text-center my-4">
+          <h2 class="display-5">Portfolio</h2>
+        </div>
+
+        <!-- cols for cards -->
+        <div class="col-12 col-md-6">
+          <div class="card mb-3">
+            <img src="assets/images/sql-analytics-1.png" class="card-img-top"
+              alt="SQL queries and data visualization dashboard">
+            <div class="card-body">
+              <h5 class="card-title">SQL Data Analytics</h5>
+              <p class="card-text">
+                Analyzed and transformed raw data into actionable insights using SQL queries.
+                Created reports to support business decisions and optimize workflows.
+                <strong>Skills applied:</strong> SQL, Data Cleaning, Reporting, Excel.
+              </p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
           </div>
         </div>
-      </nav>
-    
-      <!-- Bootstrap JavaScript Library -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <div class="col-12 col-md-6">
+          <div class="card mb-3">
+            <img src="assets/images/fullstack-bootcamp-1.png" class="card-img-top"
+              alt="Coding workspace with multiple monitors showing HTML, CSS, and JavaScript">
+            <div class="card-body">
+              <h5 class="card-title">Full Stack Bootcamp</h5>
+              <p class="card-text">
+                Building dynamic web applications with <strong>HTML, CSS, JavaScript, Python, and Django</strong>.
+                Focused on creating user-friendly interfaces and scalable backend solutions.
+                <strong>Skills applied:</strong> Responsive Design, APIs, CRUD Operations, Collaboration.
+              </p>
+              <a href="#" class="btn btn-primary">See Projects</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="card mb-3">
+            <img src="assets/images/code-bugfix-1.png" class="card-img-top" alt="Developer debugging .NET code">
+            <div class="card-body">
+              <h5 class="card-title">.NET Bug Fixes</h5>
+              <p class="card-text">
+                Resolved software defects in .NET applications while providing daily IT support.
+                Streamlined troubleshooting processes and documented solutions to improve team efficiency.
+                <strong>Skills applied:</strong> C#, Debugging, User Support, Problem-Solving.
+              </p>
+              <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="card mb-3">
+            <img src="assets/images/it-support-1.png" class="card-img-top"
+              alt="An IT Support Engineer working on dual monitor looking for Support Tickets">
+            <div class="card-body">
+              <h3 class="card-title">IT Support</h3>
+              <p class="card-text">A futuristic digital art of a .NET developer debugging C# code in Visual Studio, with
+                MSSQL queries and a REST API workflow diagram in the background.
+                Use a dark theme with neon glows, showing a legacy system error being fixed. Style:
+                cyberpunk-meets-corporate</p>
+              <a href="#" class="btn btn-outline-secondary">Visit site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+
+
+  <!-- Bootstrap JavaScript Library -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
